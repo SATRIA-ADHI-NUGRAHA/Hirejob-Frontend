@@ -59,13 +59,14 @@ export default {
       localStorage.removeItem('token')
       localStorage.removeItem('datauser')
       localStorage.removeItem('userapplicant')
+      localStorage.removeItem('datadetail')
       window.location = '/'
     },
     sendId () {
       this.$router.push({ path: '/portofolio', query: { id: this.userData.id } })
     },
     moveToProfile () {
-      this.$router.push('/profilerecrut')
+      window.location = '/profilerecrut'
     }
   }
 }

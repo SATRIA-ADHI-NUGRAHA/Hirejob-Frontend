@@ -66,7 +66,7 @@
         </b-col>
       </div>
     </div>
-    <Footer />
+    <Footer class="footer"/>
   </div>
 </template>
 <script>
@@ -90,7 +90,7 @@ export default {
 }
 .profile-picture {
   width: 120px;
-  background-image: url(../assets/img/soda.jpeg);
+  background-image: url(../assets/img/udin.jpg);
   background-size: cover;
   height: 120px;
   border-radius: 60px;
@@ -140,18 +140,18 @@ export default {
 @media only screen and (max-width: 600px) {
   .profile-picture {
     width: 120px;
-    background-image: url(../assets/img/soda.jpeg);
+    background-image: url(../assets/img/udin.jpg);
     background-size: cover;
     height: 120px;
     border-radius: 60px;
     position: relative;
     top: 50px;
-    margin-left: 90px;
+    margin-left: 105px;
   }
   .profile-company {
     background: #ffffff;
     border-radius: 0px;
-    margin: 0px;
+    margin-bottom: 90px;
     padding: 0px;
     margin-right: -4%;
   }
@@ -163,6 +163,9 @@ export default {
   }
   .company {
     padding: 0px;
+  }
+  .footer{
+    display: none;
   }
   .container-fluid {
     padding: 0px;

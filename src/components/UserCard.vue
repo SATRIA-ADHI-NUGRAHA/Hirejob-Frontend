@@ -13,7 +13,7 @@
     <div class="user-data mt-3">
       <div class="user-name">
         <h5 class="font-weight-bold" style="margin-bottom: 0;">{{usersData.name_user}}</h5>
-        <p>Comedian</p>
+        <p>{{usersData.job_desk}}</p>
       </div>
       <div>
         <p class="text-secondary" style="margin-bottom: 0;"><img src="../assets/img/map-pin.png" alt="mappin">{{usersData.address}}</p>
@@ -43,6 +43,7 @@ export default {
       const dataimage = {
         image: this.image,
         iduser: this.usersData.id_user
+
       }
       this.updateDataImage(dataimage).then(result => {
         if (result === 'File must be png/jpg/jpeg, max size 1mb') {
@@ -67,7 +68,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 5px;
 }
 .profile-image {
   width: 130px;
@@ -116,5 +117,10 @@ export default {
   .profile-image{
     margin-top: -50px;
   }
+  .custom-file-upload {
+  color: white;
+  padding: 0px;
+  opacity: 0;
+}
 }
 </style>

@@ -51,7 +51,6 @@ export default {
       page: 1
     }
     this.getDataUser(data)
-    console.log(this.allUsers)
   }
 }
 </script>
