@@ -35,5 +35,17 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "description": "```\r npm install\r ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridoNev1/Frontend-hirejob.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridoNev1/Frontend-hirejob/issues"
+  },
+  "homepage": "https://github.com/ridoNev1/Frontend-hirejob#readme"
 }
